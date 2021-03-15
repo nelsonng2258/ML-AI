@@ -10,7 +10,6 @@
 
 The [Technology in Finance Immersion Programme (TFIP)](https://www.ibf.org.sg/programmes/Pages/TFIP.aspx) aims to help individuals gain experience in key technology areas, such as Artificial Intelligence, Cloud Computing, Cybersecurity, Data Analytics and Full Stack Development, within the financial services sector.
 
-## Specialist Diploma in Machine Learning Software Development
-### from Digipen Singapore
----
+## Specialist Diploma in Machine Learning Software Development (Digipen Singapore)
+
 [DigiPen (Singapore)](https://www.digipen.edu.sg/academics/continuing-education/technology-in-finance-immersion-programme) is the training provider for the artificial intelligence technology area and will equip TFIP trainees with the ability to build, test, deploy, and maintain AI tools and algorithms customized to the needs of the business units.
