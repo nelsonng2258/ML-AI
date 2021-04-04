@@ -122,14 +122,14 @@ The model is a simple neural network with a dropout layer as given below:
 
 ## Epsilon-greedy policy
 
-![Image](./images_analysis/epsg_episode_200_histo_play_scores.png)
+![Image](./images/epsg_episode_200_histo_play_scores.png)
 <center><b>Epilson-greedy</b></center>
 
 As seen from the histogram above, the agent trained with such policy is able to attain the maximum score around 100% of the time.
 
 ## Epilson-greedy with Boltzmann action
 
-![Image](./images_analysis/BM_test_episode_200_histo_scores.png)
+![Image](./images/BM_test_episode_200_histo_scores.png)
 <center><b>Epilson-greedy with Boltzmann action</b></center>
 
 As seen from the histogram above, the agent trained with such policy is able to attain the maximum score around 70% of the time.
