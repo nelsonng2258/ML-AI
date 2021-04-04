@@ -1,9 +1,13 @@
 # Analysis of DQN Policy
 
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-blue.svg)](https://www.python.org/)
+[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
+[![Generic badge](https://img.shields.io/badge/STATUS-UNCOMPLETED-yellow)](https://shields.io/)
+
 Author: Soon Siang <br>
 Date: 3 April 2021
 
-![Image](./images_analysis/Github_Repository_DQN_PG.png)
+![Image](./images/Github_Repository_DQN_PG.png)
 
 # Objective
 
@@ -17,7 +21,7 @@ Three simple policies are analyzed:
 
 ## Epsilon-greedy policy
 
-![Image](./images_analysis/Screenshot-2020-03-18-at-8.03.38-PM.png)
+![Image](./images/Screenshot-2020-03-18-at-8.03.38-PM.png)
 <center><b>Epsilon-greedy</b></center>
 Source: https://www.geeksforgeeks.org/epsilon-greedy-algorithm-in-reinforcement-learning/
 
@@ -44,7 +48,7 @@ As above, epsilon-greedy policy implies that when the agent is deciding which ac
 
 Similar to epsilon-greedy policy except that with 1-epsilon probability, the agent will choose action in the action space based on the Boltzmann distribution (termed as `Boltzmann action`), given below:
 
-![Image](./images_analysis/1_176NhUn1CcPHofNdVmGYhQ.png)
+![Image](./images/1_176NhUn1CcPHofNdVmGYhQ.png)
 <center><b>Boltzmann's Softmax</b></center>
 Source: https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-7-action-selection-strategies-for-exploration-d3a97b7cceaf
 
@@ -65,7 +69,7 @@ The implementation is as follows:
         [action] = np.random.choice(self.action_size, size = 1, p = np.exp(log_probs))
         
         return action
-    ```
+```
     
 ## Boltzmann action
 
@@ -131,7 +135,7 @@ As seen from the histogram above, the agent trained with such policy is able to 
 As seen from the histogram above, the agent trained with such policy is able to attain the maximum score around 70% of the time.
 
 ## Boltzmann action
-![Image](./images_analysis/BM_onlyTest_episode_200_histo_play_scores.png)
+![Image](./images/BM_onlyTest_episode_200_histo_play_scores.png)
 <center><b>Boltzmann action</b></center>
 
 As seen from the histogram above, the agent trained with such policy is able to attain the maximum score around 17.5% of the time.
@@ -151,8 +155,3 @@ The reason for the worse-performance of the other two variants of policy may be 
 # Conclusion
 
 By conducting this simple experiment, it highlights the importance of exploitation-versus-exploration trade-off and how when choosing to explore, the agent ought to be exploring with a uniform prior over the action space. Doing this will lead a greater region of the Q-space being included into the Experience Replay buffer such that the model will better approximate the actual Q-landscape.
-
-
-```python
-
-```
