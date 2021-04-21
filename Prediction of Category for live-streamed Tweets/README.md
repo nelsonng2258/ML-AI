@@ -1,8 +1,8 @@
 # Data Engineering Practicum on Stream Processing
 
-![](https://img.shields.io/static/v1?label=Made with&message=Python&color=blue)
+![](https://img.shields.io/static/v1?label=Made%20with&message=Python&color=blue)
 
-![](https://img.shields.io/static/v1?label=Made with&message=Apache&color=blue)
+![](https://img.shields.io/static/v1?label=Made%20with&message=Apache&color=blue)
 
 ![](https://img.shields.io/static/v1?label=Status&message=UNCOMPLETED&color=yellow)
 
