@@ -1,0 +1,2 @@
+HDFS is a storage unit of Hadoop
+Mapreduce is a processing tool of Hadoop
