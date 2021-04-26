@@ -14,3 +14,19 @@ The [Technology in Finance Immersion Programme (TFIP)](https://www.ibf.org.sg/pr
 ## Specialist Diploma in Machine Learning Software Development (Digipen Singapore)
 
 [DigiPen (Singapore)](https://www.digipen.edu.sg/academics/continuing-education/technology-in-finance-immersion-programme) is the training provider for the artificial intelligence technology area and will equip TFIP trainees with the ability to build, test, deploy, and maintain AI tools and algorithms customized to the needs of the business units.
+
+The course duration is 24 weeks and covers the following topics:
+
+- Python
+  - Data Structures and Algorithms
+  - Object-Oriented Programming
+- Databases (MariaDB and MongoDB) and its associated query language, for example, SQL.
+- Python Libraries for Data Science, for example, Numpy, Pandas, Matplotlib and others
+- Mathematics for Machine Learning, for example, Linear Algebra, Probability theory and Statistics
+- Basic Machine Learning Algorithms, for example, K-Nearest Classifier, Linear Regression, Bayesian Network and others
+- Deep Learning Algorithms, for example, Deep Neural Network, Convolutional Neutral Network, Recurrent Neural Network and Reinforcement Learning
+- Tensorflow and PyTorch as Python frameworks for Deep Learning Applications
+- Data Engineering Systems for processing, streaming and management of data, for example, Apache-Spark, Kakfa and Hadoop
+- Tableau for Data Visualisation
+
+For a detailed list of topics covered, you can navigate to the different sub-directories in this repository to view the exact content covered in the course.
