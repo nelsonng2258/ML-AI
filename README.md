@@ -7,7 +7,7 @@
 
  
 
-![](D:\OneDrive - Nanyang Technological University\Github Repositories\TFIP-IBF-DigiPen-Repository\assets\tfip_ibf_digipen_content_header_image.png)
+![](.\assets\tfip_ibf_digipen_content_header_image.png)
 
 
 
