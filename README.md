@@ -5,7 +5,13 @@
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
 [![Generic badge](https://img.shields.io/badge/STATUS-UNCOMPLETED-yellow)](https://shields.io/)
 
- This repository stores all jupyter notebooks and other relevant resources related to the Specialist Diploma in Software Development and Machine Learning offered by DigiPen (Singapore).
+ 
+
+![](D:\OneDrive - Nanyang Technological University\Github Repositories\TFIP-IBF-DigiPen-Repository\assets\tfip_ibf_digipen_content_header_image.png)
+
+
+
+This repository stores all jupyter notebooks and other relevant resources related to the Specialist Diploma in Software Development and Machine Learning offered by DigiPen (Singapore).
 
 ## Technology in Finance Immersion Programme (TFIP)
 
