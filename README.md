@@ -6,7 +6,6 @@
 [![Generic badge](https://img.shields.io/badge/STATUS-UNCOMPLETED-yellow)](https://shields.io/)
 
 <p align="center">
-<img src = '.\assets\tfip_ibf_digipen_content_header_image.png'>
 </p>
 
 This repository stores all jupyter notebooks and other relevant resources related to the Specialist Diploma in Software Development and Machine Learning offered by DigiPen (Singapore).
